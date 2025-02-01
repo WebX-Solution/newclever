@@ -1,0 +1,40 @@
+User-agent: *
+
+# Allow all city pages explicitly
+Allow: /autoankauf-berlin
+Allow: /autoankauf-hamburg
+Allow: /autoankauf-muenchen
+Allow: /autoankauf-koeln
+Allow: /autoankauf-stuttgart
+Allow: /autoankauf-duesseldorf
+Allow: /autoankauf-leipzig
+Allow: /autoankauf-dortmund
+Allow: /autoankauf-dresden
+Allow: /autoankauf-bremen
+Allow: /autoankauf-essen
+Allow: /autoankauf-bochum
+
+# Allow service pages
+Allow: /gebrauchtwagen-ankauf
+Allow: /unfallwagen-ankauf
+Allow: /firmenwagen-ankauf
+Allow: /pkw-ankauf
+Allow: /kfz-ankauf
+Allow: /motorschaden-ankauf
+
+# Allow city-specific service pages
+Allow: /*/pkw-ankauf
+Allow: /*/unfallwagen-ankauf
+Allow: /*/gebrauchtwagen-ankauf
+Allow: /*/firmenwagen-ankauf
+Allow: /*/kfz-ankauf
+Allow: /*/motorschaden-ankauf
+
+# Disallow error pages and admin areas
+Disallow: /404
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+# Sitemap location
+Sitemap: https://clever-autoankauf.de/sitemap.xml

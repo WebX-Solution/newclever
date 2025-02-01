@@ -1,0 +1,32 @@
+module.exports = {
+  routes: [
+    '/',
+    '/gebrauchtwagen-ankauf',
+    '/unfallwagen-ankauf',
+    '/firmenwagen-ankauf',
+    '/pkw-ankauf',
+    '/kfz-ankauf',
+    '/motorschaden-ankauf',
+    '/autoankauf-berlin',
+    '/autoankauf-hamburg',
+    '/autoankauf-muenchen',
+    '/autoankauf-koeln',
+    '/autoankauf-frankfurt',
+    '/autoankauf-stuttgart',
+    '/autoankauf-duesseldorf',
+    '/autoankauf-leipzig',
+    '/autoankauf-dortmund',
+    '/autoankauf-dresden',
+    '/autoankauf-bremen',
+    '/autoankauf-essen',
+    '/autoankauf-bochum',
+    '/kontakt',
+    '/impressum',
+    '/datenschutz'
+  ],
+  outDir: 'dist',
+  minify: true,
+  siteUrl: 'https://clever-autoankauf.de',
+  compress: true,
+  sourcemap: true
+};
